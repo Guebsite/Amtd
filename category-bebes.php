@@ -5,6 +5,25 @@
           
            <div class="row">
                <div class="col-12 col-lg-8 contenido">
+               <?php query_posts('pagename=bebess') ?>              
+            <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+
+            <article class="articulo">
+					<h1><?php the_title(); ?></h1>
+					<p><?php the_content() ?></p>					
+            </article>     
+                
+<?php endwhile; ?>
+               
+               
+<?php else: ?>
+               
+
+<?php endif; ?>
+               
+               
+               
+               
                <h3 class="h3">Blog: Amistad Bebés</h3>
 <?php query_posts('posts_per_page=4'); ?>              
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>

@@ -36,12 +36,27 @@
               </a>
               <button type="button" class="btn-menu" data-toggle="collapse" data-target="#menu-principal" aria-expanded="false"><i class="fas fa-bars"></i></button>
               
+              <nav id="menu-principal" class="collapse">
               <?php wp_nav_menu (array(
-                        'theme_location' => 'top-menu',
-                        'container' => '',
-                        'menu_id' => 'menu-principal',          
-                        'menu_class' => 'collapse' ))             
+    
+                         'container' => false,
+                         'theme_location' => 'top-menu',             
+			             'items_wrap'=> '<ul>%3$s</ul>'
+                                  
+                         ))             
               ?> 
+              </nav>         
+                 <!-- Mi hoja CSS 
+                  <ul>
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">Nosotros</a></li>
+                    <li><a href="#">Conferencias</a></li>
+                    <li><a href="#">Eventos</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contacto</a></li>
+                 </ul>
+                  -->
+              
                            
           </div>           
        </header>

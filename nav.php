@@ -6,6 +6,6 @@
                     <li><a href="#">Eventos</a></li>
                     <li><a href="#">Blog</a></li>
                     <li><a href="#">Contacto</a></li>
-                </ul>
+                 </ul>
                   
               </nav>

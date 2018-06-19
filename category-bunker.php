@@ -5,7 +5,7 @@
           
            <div class="row">
                <div class="col-12 col-lg-8 contenido">
-               <?php query_posts('pagename=bebess') ?>              
+               <?php query_posts('pagename=bunker') ?>              
             <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
             <article class="articulo">
@@ -24,8 +24,8 @@
                
                
                
-               <h3 class="h3">Blog: Amistad Bebés</h3>
-<?php query_posts('category_name=bebes&posts_per_page=6');?>              
+               <h3 class="h3">Blog: Amistad Búnker</h3>
+<?php query_posts('category_name=bunker&posts_per_page=6');?>              
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
                <article class="col-12">
                 <header class="art">

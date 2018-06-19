@@ -6,10 +6,10 @@
                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, dignissimos fuga impedit ullam</p>
                </div>
                <div class="col-12 col-lg-4 producciones text-center">
-                  <a href="#">
+                  <a href="http://localhost/ProyectosGuebsite/AmistadCristiana/amistad-producciones/">
                    <img src="<?php bloginfo('template_url') ?>/img/produccioneschico.jpg" alt="" class="prod">
                   </a>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p> 
+                  <p>Sitio Web desarrollado por Amistad Producciones</p> 
                </div>
                <div class="col-12 col-lg-4">
                    <h5 class="h5 text-center">Siguenos en Redes Sociales</h5>

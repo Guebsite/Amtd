@@ -1,10 +1,5 @@
-<?php get_header(); ?>
-
-   <main class="cuerpo">
-       <div class="container">
-           <div class="row">
-               <div class="col-12 col-lg-8 contenido">
-<?php query_posts('posts_per_page=4'); ?>              
+<h3 class="h3">Blog: Hombres Trabajando</h3>
+<?php query_posts('category_name=hombres&posts_per_page=6');?>              
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
                <article class="col-12">
                 <header class="art">
@@ -36,27 +31,4 @@
 <?php else: ?>
                
 
-<?php endif; ?>          
-               
-               
-               </div>
-               
-               <?php get_sidebar(); ?>
-               
-                              
-           </div>          
-       </div>       
-   </main>
-   <section class="areas">
-      
-      <?php include(TEMPLATEPATH.'/areas2.php');?>
-                  
-              
-   </section>
-   <section class="info">
-     
-      <?php include(TEMPLATEPATH.'/info.php');?>
-             
-   </section>
-   
-<?php get_footer(); ?>
+<?php endif; ?>

@@ -5,7 +5,7 @@
           
            <div class="row">
                <div class="col-12 col-lg-8 contenido">
-               <?php query_posts('pagename=bebess') ?>              
+               <?php query_posts('pagename=ninos') ?>              
             <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
             <article class="articulo">
@@ -25,7 +25,7 @@
                
                
                <h3 class="h3">Blog: Amistad Bebés</h3>
-<?php query_posts('category_name=bebes&posts_per_page=6');?>              
+<?php query_posts('category_name=ninos&posts_per_page=6');?>              
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
                <article class="col-12">
                 <header class="art">
@@ -62,7 +62,7 @@
                
                </div>
                
-               <?php get_sidebar('areas'); ?>
+                <?php get_sidebar('areas'); ?>
                
                               
            </div>          
@@ -70,7 +70,7 @@
    </main>
    <section class="areas">
       
-      <?php include(TEMPLATEPATH.'/areas2.php');?>
+      
                   
               
    </section>

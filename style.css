@@ -183,7 +183,8 @@ ul.post-categories { margin-bottom: 1.8rem !important;
                  width: 100%;}
 
 .areas-items img { display: block;
-                   width: 100%;}
+                   width: 100%;
+                   height: auto;}
 
 .btn-serv { background-color: #89B8BA;
             box-shadow: 1px 1px 2px black;

@@ -8,7 +8,7 @@
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
                <article class="col-12">
                 <header class="art">
-                  <h1 class="h1 col-md-7"><?php the_title(); ?></h1>
+                  <h1 class="h1 col-12"><?php the_title(); ?></h1>
                   
                      </header>
                  <div class="container">
@@ -60,7 +60,7 @@
    </main>
    <section class="areas">
       
-      <?php include(TEMPLATEPATH.'/areas.php');?>
+      <?php include(TEMPLATEPATH.'/areas2.php');?>
                   
               
    </section>
